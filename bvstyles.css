@@ -54,8 +54,16 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 
 */
 
-.sidebar1 {
+.sidebar1 { /*this should just go to the bottom or something */
 	float: left;
+	width: 180px;
+	height: 600px;
+	background-color: #EADCAE;
+	padding-bottom: 10px;
+}
+
+.sidebar2 { /*this should just go to the bottom or something */
+	float: right;
 	width: 180px;
 	background-color: #EADCAE;
 	padding-bottom: 10px;
