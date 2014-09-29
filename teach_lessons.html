@@ -35,10 +35,40 @@
     <h1 align="center">Teach Lessons</h1>
     <p>If not signed in -&gt; example or ad why you should list yourself on this site and link to make an account. Otherwise</p>
     <h2>YOUR NAME</h2>
-  <p>[php <u>edit</u> button if signed in]</p>
+  <p>[pyyython <u>edit</u> button if signed in]</p>
     <p>picture</p>
-  <p>State: [little box to type in state that also acts as a dropdown]</p>
-    <p>      City: [same kinda thingy as above. hopefully with some hierarchy for bay area &amp;gt; east, south, etc. ]</p>
+<p>
+<!-- <form name="test" method="POST" action="processingpage.php"> -->
+<form>
+<table>
+<tr>
+<td style="text-align: left;">Country:</td>
+<td style="text-align: left;">
+<select name="country" id="country" onchange="setStates();">
+  <option value="Canada">Canada</option>
+  <option value="Mexico">Mexico</option>
+  <option value="United States">United States</option>
+</select>
+</td>
+</tr><tr>
+<td style="text-align: left;">State:</td>
+<td style="text-align: left;">
+<select name="state" id="state" onchange="setCities();">
+  <option value="">Please select a Country</option>
+</select>
+</td>
+</tr><tr>
+<td style="text-align: left;">City:</td>
+<td style="text-align: left;">
+<select name="city"  id="city">
+  <option value="">Please select a Country</option>
+</select>
+<td>city needs bay area heirarchy sections obv</td>
+</td>
+</tr>
+</table>
+</form>
+</fieldset> 
     <p>      Instrument: up to 2 on free account</p>
     <p>      Style: up to 2 on free account</p>
     <p>      Availability: manditory but can have &quot;call or text&quot; for availability  </p>
@@ -53,4 +83,5 @@
   <!-- end .footer --></div>
   <!-- end .container --></div>
 </body>
+<script type="text/javascript" src="bvjavascript.js"></script>
 </html>
